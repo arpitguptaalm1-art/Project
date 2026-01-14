@@ -1,6 +1,6 @@
 # Problem Statement
 People often ignore daily micro-decisions such as sleep timing, study consistency, exercise, or screen usage because they seem insignificant in the short term. However, when repeated daily, these small choices compound silently and create a butterfly effect, leading to major long-term outcomes in health, focus, career, and personal growth.
-Currently, there is no simple and interactive system that helps individuals:
+    Currently, there is no simple and interactive system that helps individuals:
     Understand how their daily habits affect their future
     Visualize the compounding impact of these decisions
     Align their habits with their long-term dreams and goals
