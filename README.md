@@ -16,9 +16,9 @@ Micro Decision Taker (MDT) is an interactive, butterfly-effect-based decision an
     The system focuses on awareness, habit correction, and future alignment, not prediction.
 
 # Key Features
-    Supports Good Habits & Bad Habits
-    Butterfly Effect–based impact calculation (Impact × Frequency × Time)
-    Graphical visualization of impact (Health, Focus, Career)
+Supports Good Habits & Bad Habits
+Butterfly Effect–based impact calculation (Impact × Frequency × Time)
+Graphical visualization of impact (Health, Focus, Career)
 
 # System Architecture
 Frontend (HTML, CSS, JavaScript, Chart.js)
