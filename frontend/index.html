@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Micro Decision Taker</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>    
+<body>
+
+<div class="container">
+    <h1 style="text-align: center;">MDT <span class="accent">Micro Decision Taker</span></h1>
+    <p style="text-align: center;"><b>Butterfly Effect Based System: </b>Predicting your future trajectory based on current habits.</p>
+
+    <label>Dream Job:</label>
+    <input id="dream_job" placeholder="Anything you dream of">
+
+    <label>Choose Decision:</label>
+    <select id="decisionSelect">
+        <option value="">-- Select Decision --</option>
+
+        <optgroup label="❌ NEGATIVE HABITS">
+            <option value="D1">Sleeping Late</option>
+            <option value="D2">Low Study Time</option>
+            <option value="D3">Excess Social Media</option>
+            <option value="D4">Skipping Exercise</option>
+            <option value="D5">Eating Junk Food</option>
+        </optgroup>
+
+        <optgroup label="✅ POSITIVE HABITS">
+            <option value="G1">Consistent Sleep</option>
+            <option value="G2">Daily Study</option>
+            <option value="G3">Regular Exercise</option>
+            <option value="G4">Reading / Learning</option>
+            <option value="G5">Healthy Diet</option>
+        </optgroup>
+    </select>
+
+    <label>Frequency (hours):</label>
+    <input type="number" id="frequency" min="0" max="24" placeholder="Duration of habit">
+
+    <label>Time Period (days):</label>
+    <input type="number" id="time_period" placeholder="Days of Continuity">
+
+    <button onclick="analyzeDecision()">Analyze</button>
+
+    <div id="result" style="display:none;">
+        <p id="pattern"></p>
+        <p id="capability"></p>
+        <p id="advice"></p>
+        <canvas id="impactChart"></canvas>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
